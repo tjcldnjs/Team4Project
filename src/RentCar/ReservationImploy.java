@@ -14,6 +14,9 @@ public interface ReservationImploy {
 	public ReservationDTO reservationNumSelec(int id) throws SQLException;
 	// 예약자 이름으로 조회하는 쿼리
 	public List<ReservationDTO> reservationNameSelec(String name) throws SQLException;
+	
+	
+	
 	// 차량을 유종별로 정렬해서 조회하는 쿼리
 	public List<CarInfoDTO> selecPuel(String puel) throws SQLException;
 	// 차종 별로 정렬 해서 조회하는 쿼리
